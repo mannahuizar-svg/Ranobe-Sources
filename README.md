@@ -17,6 +17,26 @@ This README would normally document whatever steps are necessary to get your app
 * How to run tests
 * Deployment instructions
 
+#### Run Consumet API locally (optional) ####
+
+If you want to run the Consumet API locally (for development or to use a local API endpoint), you can clone and start the Consumet API server:
+
+```bash
+# Clone the Consumet API repository
+git clone https://github.com/consumet/api.consumet.org.git
+
+# Change into the repository directory
+cd api.consumet.org
+
+# Install dependencies (npm or yarn)
+npm install    # or yarn install
+
+# Start the server
+npm start      # or yarn start
+```
+
+This will run the Consumet API server locally. Configure your application to use the local server address as needed.
+
 ### Contribution guidelines ###
 
 * Writing tests
